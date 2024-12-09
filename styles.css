@@ -8,7 +8,7 @@
 /* Layout styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;;
     color: #333;
 }
 
@@ -22,8 +22,17 @@ body {
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    height: 200px;  /* Adjust height of the header */
+    background-image: url('images/perla-homes-logo-black-1024x508.png');  /* Set your image path here */
+    background-size: cover;  /* Cover the whole header with the image */
+    background-position: center;  /* Center the image */
+    color: white;  /* Text color */
+    display: flex;
+    justify-content: center;  /* Center the text horizontally */
+    align-items: center;  /* Center the text vertically */
+    text-align: center;  /* Center text inside */
+    
+
 }
 
 header h1 {
